@@ -204,18 +204,6 @@
 - me explique a fase de preenchimento
 - me explique a fase de prestação de contas
 
-## intent:duvida_sobre_contexto
-- 5
-- se encaixa na 5
-- acho que seria a 5
-- na quinta alternativa
-- alternativa 5
-- se encaixa na 5
-- acho que seria a 5
-- quinta opção
-- opção cinco
-- cinco
-
 ##intent:extra
 - Bacana
 - legal

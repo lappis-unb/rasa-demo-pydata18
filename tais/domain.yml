@@ -3,7 +3,6 @@ intents:
   - cumprimentar
   - afirmar_curiosidades
   - afirmar_projeto
-  - submissao_de_projeto
   - afirmar
   - negar
   - extra
@@ -15,11 +14,6 @@ intents:
   - curiosidades_elegibilidade_de_empresa_para_beneficios
   - curiosidades_receber_incetivo_de_parentes
   - curiosidades_deducao_imposto_de_renda_incentivador
-  - escolher_processo
-  - escolher_preenchimento
-  - escolher_prazo
-  - escolher_erros_salic
-  - duvida_sobre_contexto
 
 templates:
   utter_default:
