@@ -104,3 +104,6 @@ rasa_env/
 # mypy
 .mypy_cache/
 models/
+
+## error
+errors.json

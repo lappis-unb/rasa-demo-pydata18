@@ -1,0 +1,105 @@
+intents:
+  - o_que_eh
+  - cumprimentar
+  - afirmar_curiosidades
+  - afirmar_projeto
+  - submissao_de_projeto
+  - afirmar
+  - negar
+  - extra
+  - curiosidades_quantidade_projetos
+  - curiosidades_beneficios_incentivo_projetos_culturais
+  - curiosidades_lei_rouanet_elegibilidade
+  - curiosidades_lei_rouanet_arrecadamento
+  - curiosidades_lei_rouanet_denuncia
+  - curiosidades_elegibilidade_de_empresa_para_beneficios
+  - curiosidades_receber_incetivo_de_parentes
+  - curiosidades_deducao_imposto_de_renda_incentivador
+  - escolher_processo
+  - escolher_preenchimento
+  - escolher_prazo
+  - escolher_erros_salic
+  - duvida_sobre_contexto
+
+templates:
+  utter_default:
+    - text: |
+        Desculpe, não consegui te entender
+
+        Você pode perguntar de novo de outro jeito?
+
+  utter_restart:
+    - text: |
+        reiniciando =D
+
+actions:
+  utter_cumprimentar:
+    - text: |
+        Olá, meu  nome é Taís, sou assistente virtual do MinC
+
+         Estou aqui para te ajudar a sanar dúvidas sobre a lei Rouanet
+
+    - text: |
+        Oi, eu sou a Taís, assistente virtual do MinC
+
+         Estou aqui para te ajudar a tirar dúvidas sobre a lei Rouanet
+
+    - text: |
+        Oi, sou assistente virtual do MinC, me chamo Taís
+
+         Estou aqui para te ajudar a esclarecer dúvidas sobre a lei Rouanet
+
+  utter_despedir:
+    - text: |
+        Foi um prazer te ajudar!
+
+        Sempre que tiver alguma dúvida, volte aqui!
+
+        Até logo!
+
+    - text: |
+        Foi um prazer te ajudar!
+
+        Sempre que precisar, volte aqui!
+
+        Até a próxima!
+
+    - text: |
+        Foi um prazer te ajudar!
+
+        Quando surgir alguma dúvida, volte aqui!
+
+        Até mais!
+
+##- actions.actions_oqueeh.ActionOQueEh
+##- actions.actions_geral.ActionFaseDeTestes
+##- actions.actions_geral.ActionExplicarDefinicaoPerfil
+##- actions.actions_geral.ActionNovaProposta
+##- actions.actions_geral.ActionDuvidaExecucao
+##- actions.actions_geral.ActionConheceProcesso
+##- actions.actions_geral.ActionCadastroSalic
+##- actions.actions_geral.ActionAviso
+##- actions.actions_geral.ActionIntroduzirExecucao
+##- actions.actions_geral.ActionSubmissaoDeProjetos
+##- actions.actions_geral.ActionJaEhProponente
+##- actions.actions_geral.ActionCadastroSalicVideo
+##- actions.actions_geral.ActionExplicarCadastroSalic
+##- actions.actions_geral.ActionCadastroSalicAposVideo
+##- actions.actions_geral.ActionInscricaoProponente
+##- actions.actions_geral.ActionMaisAlgumaPergunta
+##- actions.actions_geral.ActionNaoAprendiContexto
+##- actions.actions_geral.ActionProponenteCadastrado
+
+##- actions.actions_curiosidades.ActionCuriosidadesIndicacao
+##- actions.actions_curiosidades.ActionCuriosidadesMais
+##- actions.actions_curiosidades.ActionCuriosidadesMaisSim
+##- actions.actions_curiosidades.ActionCuriosidadesMaisNao
+##- actions.actions_curiosidades.ActionCuriosidadesFalarSobreProjetos
+##- actions.actions_curiosidades.ActionCuriosidadesQuantidadeProjetos
+##- actions.actions_curiosidades.ActionCuriosidadesBeneficiosIncentivoProjetosCulturais
+##- actions.actions_curiosidades.ActionCuriosidadesLeiRouanetElegibilidade
+##- actions.actions_curiosidades.ActionCuriosidadesLeiRouanetArrecadamento
+##- actions.actions_curiosidades.ActionCuriosidadesLeiRouanetDenuncia
+##- actions.actions_curiosidades.ActionCuriosidadesElegibilidadeDeEmpresaParaBeneficios
+##- actions.actions_curiosidades.ActionCuriosidadesReceberIncetivoDeParentes
+##- actions.actions_curiosidades.ActionCuriosidadesDeducaoImpostoDeRendaIncentivador
