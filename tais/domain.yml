@@ -27,6 +27,7 @@ templates:
         reiniciando =D
 
 actions:
+- actions.actions_oqueeh.ActionOQueEh
   utter_cumprimentar:
     - text: |
         Olá, meu  nome é Taís, sou assistente virtual do MinC
@@ -65,24 +66,150 @@ actions:
 
         Até mais!
 
-##- actions.actions_oqueeh.ActionOQueEh
-##- actions.actions_geral.ActionFaseDeTestes
-##- actions.actions_geral.ActionExplicarDefinicaoPerfil
-##- actions.actions_geral.ActionNovaProposta
-##- actions.actions_geral.ActionDuvidaExecucao
-##- actions.actions_geral.ActionConheceProcesso
-##- actions.actions_geral.ActionCadastroSalic
-##- actions.actions_geral.ActionAviso
-##- actions.actions_geral.ActionIntroduzirExecucao
-##- actions.actions_geral.ActionSubmissaoDeProjetos
-##- actions.actions_geral.ActionJaEhProponente
-##- actions.actions_geral.ActionCadastroSalicVideo
-##- actions.actions_geral.ActionExplicarCadastroSalic
-##- actions.actions_geral.ActionCadastroSalicAposVideo
-##- actions.actions_geral.ActionInscricaoProponente
-##- actions.actions_geral.ActionMaisAlgumaPergunta
-##- actions.actions_geral.ActionNaoAprendiContexto
-##- actions.actions_geral.ActionProponenteCadastrado
+  utter_fase_de_testes:
+    - text: |
+        Ainda não consigo falar sobre outros assuntos. 
+        
+        Estou em fase de testes e a cada dia aprendo mais com vocês.
+
+  utexplicar_definicao_perfil:
+    - text: |
+        Se você quiser saber mais sobre a lei Rounet, nós podemos descobrir juntos sobre como ela foi criada,
+
+        o que ela proporciona, de onde vem o dinheiro usado na lei, e coisas afins.\n
+
+        Se você preferir falar sobre criação e andamento de projetos, podemos analisar onde a sua dúvida se encaixa.
+
+        Por exemplo, talvez você queira saber mais sobre como funciona um andamento de projeto, ou como submeter um projeto, entre outras.
+
+        Do que você prefere conversar?
+
+  utter_nova_proposta:
+    - text: |
+        Você já começou a trabalhar em uma nova proposta de projeto? (Sim ou Não)
+
+  utter_duvida_execucao:
+    - text: |
+        Você tem dúvida em relação à captação de verba e execução do 
+
+        projeto? (Sim ou Não)
+
+  utter_conhece_processo:
+    - text: |
+        Você sabe como funciona o andamento de um projeto de incentivo a 
+
+        cultura? (Sim ou Não)
+
+  utter_cadastro_salic:
+    - text: |
+        Você já tem cadastro no SALIC? (Sim ou Não)
+
+  utter_aviso:
+    - text: |
+        Para eu ser mais eficiente na solução da sua dúvida vou fazer algumas perguntas.\n
+
+        Você já preencheu uma proposta? (Sim ou Não)
+
+  utter_introduzir_execucao:
+    - text: |
+        Eu ainda não aprendi a falar sobre um projeto que está em Execução ou
+
+        em Prestação de Contas. Ainda estou aprendendo =|
+
+        Em breve eu poderei responder sua dúvida.
+
+        Neste momento, eu recomendo que vocẽ entre em contato com as equipes da SEFIC:
+
+        Execução: acompanhamento.incentivo@cultura.gov.br
+
+        Prestação de Contas: prestacaodecontas.incentivo@cultura.gov.br
+
+  utter_submissao_de_projetos:
+    - text: |
+        Tudo bem. Aqui vai um resumo do processo:
+
+        A pessoa responsável, chamada de proponente, insere uma proposta cultural no Sistema de Apoio às Leis de Incentivo à Cultura (Salic), de forma eletrônica.
+
+        Essa proposta é analisada pelo MinC. Se for aprovada, autoriza o proponente a captar recursos.
+
+        Assim que o valor mínimo for captado, o proponente pode começar a executar o projeto.
+
+        Durante a execução o proponente deve prestar contas de acordo com os prazos definidos na Lei Rouanet.
+
+        A prestação de contas é analisada pelos técnicos do Ministério e se aprovada, permite que o proponente crie um novo projeto.
+
+        O primeiro passo para você particiar deste processo é ter cadastro no SALIC
+
+  utter_ja_eh_proponente:
+    - text: |
+        Você já tem um proponente cadastrado? (Sim ou Não)
+
+  utter_cadastro_salic_video:
+    - text: |
+        O Salic é o Sistema de Apoio às Leis de Incentivo à Cultura, e é por 
+
+        ele que você cadastra a proposta e a acompanha
+
+        Se você encontrar dificuldades no momento do cadastro, pode assistir
+        este vídeo, nele você pode observar o passo a passo para se cadastrar:
+
+        https://youtu.be/rMGEZyIr1U8
+
+        Caso você não possa ver o vídeo, eu posso te explicar. Quer que eu te explique? (Sim ou Não)
+
+  utter_explicar_cadastro_salic:
+    - text: |
+        A primeira coisa que você deve fazer é acessar o SALIC no site http://salic.cultura.gov.br
+
+        Então no formulário inicial, onde pede login e senha, você deve
+
+        clicar na opção "Não sou cadastrado", logo abaixo
+
+        Preencha todos os campos corretamente, todos eles são obrigatórios.
+
+        E depois clique em "Cadastrar"
+
+        Agora aguarde a chegada de um e-mail de confirmação. Este vai conter
+
+        uma senha temporária
+
+        É interessante você alterar esta senha, por isso, no seu primeiro
+
+        acesso, vá em "Usuário > Alterar Senha", para mudar a mesma
+
+        Agora que você já se cadastrou, o próximo passo cadastrar um proponente
+
+  utter_cadastro_salic_apos_video:
+    - text: |
+        Espero que o vídeo tenha ajudado
+
+        Agora que você já se cadastrou, o próximo passo cadastrar um proponente
+
+  utter_inscricao_proponente:
+    - text: |
+        Para inscrever um proponente, ou se tornar um proponente, você deve:
+
+        Acessar o SALIC e efetuar o login
+
+        Clique em Administrativo e depois em cadastrar proponente. OU acesse esse link http://salic.cultura.gov.br/agente/agentes/incluiragente;
+
+        Se você for uma pessoa física você precisa atuar na área cultural.
+
+         Caso você seja uma pessoa jurídica pública tem que atuar na área de administração indireta ou uma pessoa jurídica privada com ou sem fins lucrativos.
+
+  utter_mais_alguma_pergunta:
+    - text: |
+        Você possui mais alguma dúvida? (Sim ou Não)
+
+  utter_nao_aprendi_contexto:
+    - text: |
+        Então, sei que agora, você gostaria de tirar dúvidas mais específicas do seu projeto.
+
+        Estou em fase de testes e não consigo responder. Mas, em breve vou poder te ajudar com esses temas.
+
+  utter_proponente_cadastrado:
+    - text: |
+        Okay! Agora que você tem um proponente cadastrado, é só preencher sua proposta!
 
 ##- actions.actions_curiosidades.ActionCuriosidadesIndicacao
 ##- actions.actions_curiosidades.ActionCuriosidadesMais
