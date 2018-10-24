@@ -25,7 +25,7 @@ templates:
   - text: "Hey! How are you?"
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up: {img_api_response}"
+  - text: "Here is something to cheer you up"
 
   utter_did_that_help:
   - text: "Did that help you?"
