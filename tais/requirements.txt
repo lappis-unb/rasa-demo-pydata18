@@ -1,0 +1,5 @@
+jupyter==1.0.0
+matplotlib==3.0.1
+rasa-core==0.9.0a7
+rasa-nlu==0.12.3
+pygraphviz==1.5
